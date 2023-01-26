@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vacation-client/static/css/main.c421ba37.css",
+    "main.js": "/vacation-client/static/js/main.262c8ec5.js",
+    "static/js/787.a97eb2e2.chunk.js": "/vacation-client/static/js/787.a97eb2e2.chunk.js",
+    "index.html": "/vacation-client/index.html",
+    "main.c421ba37.css.map": "/vacation-client/static/css/main.c421ba37.css.map",
+    "main.262c8ec5.js.map": "/vacation-client/static/js/main.262c8ec5.js.map",
+    "787.a97eb2e2.chunk.js.map": "/vacation-client/static/js/787.a97eb2e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c421ba37.css",
+    "static/js/main.262c8ec5.js"
+  ]
+}
