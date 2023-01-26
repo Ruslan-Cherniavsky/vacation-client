@@ -3,7 +3,7 @@
   "name": "my-udp3",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {git 
+  "dependencies": {
     "@devexpress/dx-react-core": "^3.0.3",
     "@devexpress/dx-react-grid": "^3.0.3",
     "@devexpress/dx-react-grid-material-ui": "^3.0.3",
