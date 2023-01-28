@@ -26,6 +26,7 @@ function App() {
           <Routes >
             <Route path="/" element={<Login />} />
             <Route path="/vacation-frontend" element={<Login />} />
+            <Route path="/vacation-frontend/vacationsmain" element={<VacationsMain />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/about" element={<About />} />
             <Route path="/chart" element={<Chart />} />
