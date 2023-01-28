@@ -18,7 +18,7 @@ function Chart() {
 
     const getTopVcData = async () => {
         try {
-            const { data } = await axiosInstance.get(`https://vacations-api.onrender.com/charts/`)
+            const { data } = await axiosInstance.get(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/charts/`)
 
             setTopVcData(data)
 

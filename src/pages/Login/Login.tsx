@@ -32,7 +32,7 @@ function Login() {
         }
 
         try {
-            const { data } = await axios.post(`https://vacations-api.onrender.com/login/`, payload)
+            const { data } = await axios.post(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/login/`, payload)
             setTokenLS(data.token)
             setuserNameLocal('')
             setpasswordLocal('')

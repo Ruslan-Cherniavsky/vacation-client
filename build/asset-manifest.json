@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vacation-frontend/static/css/main.c421ba37.css",
-    "main.js": "/vacation-frontend/static/js/main.666645f8.js",
+    "main.js": "/vacation-frontend/static/js/main.cdaa8b86.js",
     "static/js/787.a97eb2e2.chunk.js": "/vacation-frontend/static/js/787.a97eb2e2.chunk.js",
     "index.html": "/vacation-frontend/index.html",
     "main.c421ba37.css.map": "/vacation-frontend/static/css/main.c421ba37.css.map",
-    "main.666645f8.js.map": "/vacation-frontend/static/js/main.666645f8.js.map",
+    "main.cdaa8b86.js.map": "/vacation-frontend/static/js/main.cdaa8b86.js.map",
     "787.a97eb2e2.chunk.js.map": "/vacation-frontend/static/js/787.a97eb2e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c421ba37.css",
-    "static/js/main.666645f8.js"
+    "static/js/main.cdaa8b86.js"
   ]
 }

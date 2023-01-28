@@ -46,7 +46,7 @@ function PostVacationForm() {
             price: price,
         }
         try {
-            const { data } = await axiosInstance.post(`https://vacations-api.onrender.com/vacations/`, payload)
+            const { data } = await axiosInstance.post(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/`, payload)
             setdestination('')
             setdescription('')
             setpicture('')

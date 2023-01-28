@@ -39,7 +39,7 @@ function Registration() {
             password: password,
         }
         try {
-            const { data } = await axios.post(`https://vacations-api.onrender.com/regester/`, payload)
+            const { data } = await axios.post(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/regester/`, payload)
             setuserName('')
             setFirstName('')
             setLastName('')

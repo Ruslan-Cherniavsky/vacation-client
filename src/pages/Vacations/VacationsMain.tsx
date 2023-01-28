@@ -41,7 +41,7 @@ function VacationsMain() {
 
     const dataFetch = async () => {
         try {
-            const { data } = await axiosInstance.get(`https://vacations-api.onrender.com/vacations`)
+            const { data } = await axiosInstance.get(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations`)
             console.log(data)
             dispatch(setVcData(data))
             return data
@@ -52,7 +52,7 @@ function VacationsMain() {
 
     const fetchVacationFiltered = async () => {
         try {
-            const { data } = await axiosInstance.get(`https://vacations-api.onrender.com/vacations/filtered/`)
+            const { data } = await axiosInstance.get(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/filtered/`)
             if (!data[0]) return dataFetch()
             dispatch(setVcData(data))
             return data
@@ -63,7 +63,7 @@ function VacationsMain() {
 
     const deleteHandle = async (id: any) => {
         try {
-            const { data } = await axiosInstance.delete(`https://vacations-api.onrender.com/vacations/${id}`)
+            const { data } = await axiosInstance.delete(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/${id}`)
             dataFetch()
             return data
         } catch (err) {
@@ -73,7 +73,7 @@ function VacationsMain() {
 
     const followHandle = async (id: any) => {
         try {
-            const { data } = await axiosInstance.post(`https://vacations-api.onrender.com/vacations/follow/${id}`)
+            const { data } = await axiosInstance.post(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/follow/${id}`)
             dataFetch()
             return data
         } catch (err) {
@@ -83,7 +83,7 @@ function VacationsMain() {
 
     const followHandleOff = async (id: any) => {
         try {
-            const { data } = await axiosInstance.delete(`https://vacations-api.onrender.com/vacations/follow/${id}`)
+            const { data } = await axiosInstance.delete(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/follow/${id}`)
 
             return data
         } catch (err) {
@@ -93,7 +93,7 @@ function VacationsMain() {
 
     const getUserData = async () => {
         try {
-            const { data } = await axiosInstance.get(`https://vacations-api.onrender.com/vacations/userData`)
+            const { data } = await axiosInstance.get(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/userData`)
             dispatch(setUserName(data.userName))
             dispatch(setUserRole(data.role))
 

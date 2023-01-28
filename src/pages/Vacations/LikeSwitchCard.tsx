@@ -11,7 +11,7 @@ export default function LikeSwitchCard(props: any) {
 
     const followHandleCheackServer = async () => {
         try {
-            const { data } = await axiosInstance.get(`https://vacations-api.onrender.com/vacations/follow/`)
+            const { data } = await axiosInstance.get(`https://vacations-backend-jycz-main-yxiatojmha-wm.a.run.app/vacations/follow/`)
             const cardSelected: any = await data.filter((e: any) => {//@ts-ignore
                 return e.vacation_id === id
             })
